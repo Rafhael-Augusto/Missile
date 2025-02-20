@@ -42,7 +42,6 @@ Events.Coordinates.OnServerEvent:Connect(function(Player,Coordinates)
 				Tween_Missile_2 = Ts:Create(Primary_Missile,TweenInfo.new(v.Body.PrimaryPart.Move.TimeLength -1), Goal_Missile_2)
 
 
-
 				Tween_body:Play()
 				Tween_Missile:Play()
 
